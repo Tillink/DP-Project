@@ -36,7 +36,7 @@
 # 구현 방식
 - Manager Script를 통한 역할 분담 : Game, Score, Sound, Unit, Monster, Puzzle Manager
 - 의존성 주입(Dependency Injection)을 이용한 스크립트 단일화
-
+<td><img src="https://user-images.githubusercontent.com/25303946/49357406-86edbf00-f712-11e8-8ee2-e6fc20ab5b94.png" width="800" height="300"/></td>
 - Object Pool Pattern : 유닛, 몬스터, 퍼즐, 파티클에 대한 객체 생성, 삭제 방식을 Object pool로 대체
 <br/><br/><br/>
 

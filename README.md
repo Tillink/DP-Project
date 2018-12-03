@@ -33,4 +33,11 @@
 </table>
 <br/><br/>
 
-# 구현 
+# 구현 방식
+- Manager Script를 통한 역할 분담 : Game, Sound, Unit, Monster, Puzzle, 
+- 의존성 주입(Dependency Injection)을 이용한 스크립트 단일화
+
+- Object Pool Pattern : 유닛, 몬스터, 퍼즐, 파티클에 대한 객체 생성, 삭제 방식을 Object pool로 대체
+<br/><br/>
+
+# 보완점 및 차후 

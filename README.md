@@ -18,7 +18,7 @@
 <td><img src="https://user-images.githubusercontent.com/25303946/49354302-8e5a9b80-f705-11e8-9327-ed747c37e0d1.png" width="200" height="200"/></td>
 <td><img src="https://user-images.githubusercontent.com/25303946/49354303-8ef33200-f705-11e8-8937-d13055a66b60.png" width="150" height="200"/></td>
   </tr>
-<table>
+</table>
 <br/><br/>
   
 # 실행 스크린샷
@@ -30,4 +30,7 @@
 <td><img src="https://user-images.githubusercontent.com/25303946/49354503-8fd89380-f706-11e8-9b95-0793c7491f5c.png" width="150" height="300"/></td>
 <td><img src="https://user-images.githubusercontent.com/25303946/49354505-91a25700-f706-11e8-82c2-86485f8e200f.png" width="150" height="300"/></td>
   </tr>
-<table>
+</table>
+<br/><br/>
+
+# 구현 

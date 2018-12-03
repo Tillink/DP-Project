@@ -19,7 +19,8 @@
 <td><img src="https://user-images.githubusercontent.com/25303946/49354303-8ef33200-f705-11e8-8937-d13055a66b60.png" width="150" height="200"/></td>
   </tr>
 </table>
-  
+<br/>
+
 # 실행 스크린샷
 <table>
   <tr>
@@ -30,7 +31,7 @@
 <td><img src="https://user-images.githubusercontent.com/25303946/49354505-91a25700-f706-11e8-82c2-86485f8e200f.png" width="150" height="300"/></td>
   </tr>
 </table>
-
+<br/>
 
 # 구현 방식
 - Manager Script를 통한 역할 분담 : Game, Sound, Unit, Monster, Puzzle, 

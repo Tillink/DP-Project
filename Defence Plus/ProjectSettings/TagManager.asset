@@ -3,7 +3,17 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Monster
+  - Unit
+  - Archer
+  - Target
+  - UnitSpawn
+  - Center
+  - MonsterSpawn
+  - Red
+  - Green
+  - Blue
   layers:
   - Default
   - TransparentFX
@@ -13,8 +23,8 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
+  - Unit
+  - Monster
   - 
   - 
   - 

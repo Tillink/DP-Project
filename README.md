@@ -40,4 +40,4 @@
 - Object Pool Pattern : 유닛, 몬스터, 퍼즐, 파티클에 대한 객체 생성, 삭제 방식을 Object pool로 대체
 <br/><br/>
 
-# 보완점 및 차후 
+# 보완점 및 차후 계획

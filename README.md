@@ -12,10 +12,10 @@
 - 시나리오 보드
 <table>
   <tr>
-<td><img src="https://user-images.githubusercontent.com/25303946/49354298-8e5a9b80-f705-11e8-93e8-5a4ea524972c.png" width="200" height="200"/></td>
-<td><img src="https://user-images.githubusercontent.com/25303946/49354299-8e5a9b80-f705-11e8-853b-5e73cec2987a.png" width="200" height="200"/></td>
-<td><img src="https://user-images.githubusercontent.com/25303946/49354301-8e5a9b80-f705-11e8-9c5a-f9a4cae68215.png" width="200" height="200"/></td>
+<td><img src="https://user-images.githubusercontent.com/25303946/49354298-8e5a9b80-f705-11e8-93e8-5a4ea524972c.png" width="150" height="200"/></td>
+<td><img src="https://user-images.githubusercontent.com/25303946/49354299-8e5a9b80-f705-11e8-853b-5e73cec2987a.png" width="300" height="200"/></td>
+<td><img src="https://user-images.githubusercontent.com/25303946/49354301-8e5a9b80-f705-11e8-9c5a-f9a4cae68215.png" width="300" height="200"/></td>
 <td><img src="https://user-images.githubusercontent.com/25303946/49354302-8e5a9b80-f705-11e8-9327-ed747c37e0d1.png" width="200" height="200"/></td>
-<td><img src="https://user-images.githubusercontent.com/25303946/49354303-8ef33200-f705-11e8-8937-d13055a66b60.png" width="200" height="200"/></td>
+<td><img src="https://user-images.githubusercontent.com/25303946/49354303-8ef33200-f705-11e8-8937-d13055a66b60.png" width="150" height="200"/></td>
   </tr>
 <table>

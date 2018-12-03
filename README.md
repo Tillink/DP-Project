@@ -4,6 +4,7 @@
 - 개발 인원 : 4명
 - 개발 기간 : 11.08~11.27 (20일)
 - 개발 환경 : Unity, C#
+<br/><br/>
 
 # 기획 
 - 게임 장르 : 디펜스 + 퍼즐 (타워 디펜스 + 블록을 드래그하여 정중앙의 숫자를 맞추는 더하기 퍼즐)
@@ -18,7 +19,6 @@
 <td><img src="https://user-images.githubusercontent.com/25303946/49354303-8ef33200-f705-11e8-8937-d13055a66b60.png" width="150" height="200"/></td>
   </tr>
 </table>
-<br/><br/>
   
 # 실행 스크린샷
 <table>
@@ -30,7 +30,7 @@
 <td><img src="https://user-images.githubusercontent.com/25303946/49354505-91a25700-f706-11e8-82c2-86485f8e200f.png" width="150" height="300"/></td>
   </tr>
 </table>
-<br/>
+
 
 # 구현 방식
 - Manager Script를 통한 역할 분담 : Game, Sound, Unit, Monster, Puzzle, 

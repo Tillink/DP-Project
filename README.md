@@ -20,7 +20,9 @@
 </table>
 <br/><br/>
 
-# 실행 스크린샷
+# 실행 결과
+- 영상 : https://www.youtube.com/watch?v=Tg8PErb8abk&t=15s
+- 스크립트
 <table>
   <tr>
 <td><img src="https://user-images.githubusercontent.com/25303946/49354491-80594a80-f706-11e8-83f4-9c04e0b64bf9.png" width="150" height="300"/></td>

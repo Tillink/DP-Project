@@ -36,14 +36,7 @@
 
 # 구현 방식
 - Manager Script를 통한 역할 분담 : Game, Score, Sound, Unit, Monster, Puzzle Manager
-```C#
-public void GoToMainMenu() 
-{
-    GameManager.Instance.ContinueGame();
-    UnityEngine.SceneManagement.SceneManager.LoadScene("MainMenu");
-    SoundManager.Instance.PlaySound(BGMType.Main);
-}
-```
+
 <br/>
 - Object Pool Pattern : 유닛, 몬스터, 퍼즐, 파티클에 대한 객체 생성, 삭제 방식을 Object pool로 대체
 ```

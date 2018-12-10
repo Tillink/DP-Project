@@ -38,11 +38,11 @@
 - Manager Script를 통한 역할 분담 : Game, Score, Sound, Unit, Monster, Puzzle Manager
 ```C#
 public void GoToMainMenu() 
-    {
-        GameManager.Instance.ContinueGame();
-        UnityEngine.SceneManagement.SceneManager.LoadScene("MainMenu");
-        SoundManager.Instance.PlaySound(BGMType.Main);
-    }
+{
+    GameManager.Instance.ContinueGame();
+    UnityEngine.SceneManagement.SceneManager.LoadScene("MainMenu");
+    SoundManager.Instance.PlaySound(BGMType.Main);
+}
 ```
 - Object Pool Pattern : 유닛, 몬스터, 퍼즐, 파티클에 대한 객체 생성, 삭제 방식을 Object pool로 대체
 - 인터페이스를 이용하여 클래스 결합도를 낮춤

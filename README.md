@@ -45,12 +45,13 @@ public void GoToMainMenu()
 }
 ```
 - Object Pool Pattern : 유닛, 몬스터, 퍼즐, 파티클에 대한 객체 생성, 삭제 방식을 Object pool로 대체
-```c
-#include<stdio.h>
-int main(void)
+```C#
+public void ShowParticle(PuzzleColor type, Transform parent)
 {
-printf("Hello Interface!\n");
-return 0;
+    GameObject particle = particles[type].GetObject();
+    particle.transform.parent = parent;
+    particle.transform.localPosition = Vector3.zero;
+    particle.SetActive(true);
 }
 ```
 - 인터페이스를 이용하여 클래스 결합도를 낮춤

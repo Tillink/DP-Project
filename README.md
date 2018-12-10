@@ -59,6 +59,14 @@ public void ShowParticle(PuzzleColor type, Transform parent)
 <br/>
 - 인터페이스를 이용하여 클래스 결합도를 낮춤
 <td><img src="https://user-images.githubusercontent.com/25303946/49357406-86edbf00-f712-11e8-8ee2-e6fc20ab5b94.png" width="800" height="250"/></td>
+```C#
+public void GoToMainMenu() 
+{
+    GameManager.Instance.ContinueGame();
+    UnityEngine.SceneManagement.SceneManager.LoadScene("MainMenu");
+    SoundManager.Instance.PlaySound(BGMType.Main);
+}
+```
 <br/><br/><br/>
 
 # 보완점 및 차후 계획

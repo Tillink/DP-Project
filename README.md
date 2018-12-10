@@ -55,6 +55,7 @@ public void ShowParticle(PuzzleColor type, Transform parent)
 }
 ```
 - 인터페이스를 이용하여 클래스 결합도를 낮춤
+<td><img src="https://user-images.githubusercontent.com/25303946/49357406-86edbf00-f712-11e8-8ee2-e6fc20ab5b94.png" width="800" height="250"/></td>
 ```C#
 public class Unit : MonoBehaviour 
 {
@@ -64,7 +65,6 @@ public class Unit : MonoBehaviour
     {
         RaycastHit2D hit = Physics2D.Raycast(transform.position, moveDirection, Status.SearchDistance, 1 << LayerMask.NameToLayer("Monster"));
 ```
-<td><img src="https://user-images.githubusercontent.com/25303946/49357406-86edbf00-f712-11e8-8ee2-e6fc20ab5b94.png" width="800" height="250"/></td>
 
 <br/><br/><br/>
 

@@ -71,6 +71,7 @@ public class Unit : MonoBehaviour
             SetState(UnitState.Die);
         }
     }
+}
 ```
 <br/><br/><br/>
 

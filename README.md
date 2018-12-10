@@ -45,8 +45,31 @@ public void GoToMainMenu()
 }
 ```
 - Object Pool Pattern : 유닛, 몬스터, 퍼즐, 파티클에 대한 객체 생성, 삭제 방식을 Object pool로 대체
+```C#
+// 필요한 곳에 파티클을 생성시킴(활성화)
+public void ShowParticle(PuzzleColor type, Transform parent)
+{
+    GameObject particle = particles[type].GetObject();
+    particle.transform.parent = parent;
+    particle.transform.localPosition = Vector3.zero;
+    particle.SetActive(true);
+}
+```
 - 인터페이스를 이용하여 클래스 결합도를 낮춤
 <td><img src="https://user-images.githubusercontent.com/25303946/49357406-86edbf00-f712-11e8-8ee2-e6fc20ab5b94.png" width="800" height="250"/></td>
+```C#
+public class Unit : MonoBehaviour 
+{
+    public UnitStatus Status;
+    
+    private void CheckHP()
+    {
+        if (Status.HP <= 0)
+        {
+            SetState(UnitState.Die);
+        }
+    }
+```
 <br/><br/><br/>
 
 # 보완점 및 차후 계획
